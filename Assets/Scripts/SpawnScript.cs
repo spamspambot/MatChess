@@ -55,6 +55,7 @@ public class SpawnScript : MonoBehaviour
                 else print("GameOver?");
 
             }
+
             else
             {
                 if (randomBlockers)
@@ -78,7 +79,7 @@ public class SpawnScript : MonoBehaviour
                 }
 
             }
-        }
+        }/*
         else
         {
             int i = spawnPoints.Count;
@@ -99,6 +100,6 @@ public class SpawnScript : MonoBehaviour
             else Instantiate(pieceTypes[0], spawnPoints[RNG].transform.position, spawnPoints[RNG].transform.rotation);
         }
 
-
+        */
     }
 }
